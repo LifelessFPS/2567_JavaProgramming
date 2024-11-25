@@ -7,6 +7,7 @@ public class Lab101 {
         Scanner scan = new Scanner(System.in);
 		
 		DecimalFormat frm = new DecimalFormat("#,###.00");
+		DecimalFormat frmDiscount = new DecimalFormat("0");
 		//Input product name
 		System.out.print("Input product name   : ");
 		String productName = scan.nextLine();
@@ -23,7 +24,18 @@ public class Lab101 {
 		System.out.println("--------------------------------------------------------");
 		
 		System.out.print("How many Discount (%) : ");
-		double discount = scan.nextDouble();
+		float discount = scan.nextFloat();
+		
+		System.out.println("--------------------------------------------------------");
+		
+		
+		float discountEx = totalPriceProduct * (discount/100);
+		float totalDiscount = totalPriceProduct - discountEx;
+		
+		
+		System.out.println("Discount from "+frmDiscount.format(discount)+"%\t\t"+ frm.format(discountEx)+" baht.");
+		
+		System.out.println("Amount to be paid \t\t" +frm.format(totalDiscount)+" baht.");
 
 	}
 
