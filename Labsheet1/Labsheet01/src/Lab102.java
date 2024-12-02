@@ -1,8 +1,17 @@
+import java.util.Scanner;
 
 public class Lab102 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Input number of minutes   : ");
+		Float minutes = scan.nextFloat();
+		
+		float dayMinutes = minutes/1440;
+		float years = dayMinutes/365;
+		
+		System.out.print(minutes+"minutes is  approximately"+);
 
 	}
 
