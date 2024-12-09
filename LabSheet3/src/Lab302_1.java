@@ -7,6 +7,7 @@ public class Lab302_1 {
 		String inputEmail = JOptionPane.showInputDialog("Input your e-mail: ").toLowerCase();
 		
 		
+		
 		while(true) {
 			if(inputEmail.endsWith("@gmail.com") || inputEmail.endsWith("@hotmail.com")) {
 				JOptionPane.showMessageDialog(null, "Your email is " + inputEmail);

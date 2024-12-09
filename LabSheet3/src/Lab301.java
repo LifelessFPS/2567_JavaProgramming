@@ -25,8 +25,6 @@ public class Lab301 {
 		System.out.println(text.toUpperCase());
 		
 		
-		
-		
 		scanner.close();
 
 	}

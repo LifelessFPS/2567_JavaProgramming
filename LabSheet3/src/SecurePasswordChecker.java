@@ -23,7 +23,7 @@ public class SecurePasswordChecker {
 			errors += "- Password must be at least 8 characters long.\n";
 		}
 		
-		//
+		
 		boolean hasUpperCase = false;
 		boolean hasLowerCase = false;
 		boolean hasDigit = false;
