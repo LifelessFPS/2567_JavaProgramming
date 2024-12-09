@@ -21,6 +21,7 @@ public class Lab203 {
 		}else {
 			JOptionPane.showMessageDialog(null, "BMI = " + dcm.format(BMI) + "\nYou're Obesity","BMI",JOptionPane.WARNING_MESSAGE);
 		}
+		
 	}
 
 }

@@ -9,7 +9,6 @@ public class IncomeTaxCalculator {
         final int INCOME_THRESHOLD_40K = 40000;
         final int INCOME_THRESHOLD_60K = 60000;
 
-        
         int taxableIncome;
         double taxPayable;
 

@@ -7,6 +7,7 @@ public class Withdrawal {
 		Random rand = new Random();
 		int balance = rand.nextInt(9) * 100000;
 		
+		
 		int moneyWithdraw = Integer.parseInt(JOptionPane.showInputDialog(null, "You balance : "+ balance +"\nInput money to wthdraw: "));
 
 		

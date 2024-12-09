@@ -3,7 +3,6 @@ public class Icecream {
 
 	public static void main(String[] args) {
 		
-		//
 		final int VANILLA = 10;
         final int CHOCOLATE = 15;
         final int TOPPING = 5;

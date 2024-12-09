@@ -20,7 +20,6 @@ public class Lab204 {
         }
             
         
-
         System.out.println();
         for (int i = X; i <= Y; i++) {
             int res = sum;
