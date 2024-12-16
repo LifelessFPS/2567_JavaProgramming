@@ -1,4 +1,4 @@
 SudentID : 2413110558
 StudentName : Ukit Pudpong
-Date : 9/12/2024
-Topic : String Method
+Date : 16/12/2024
+Topic : Method
