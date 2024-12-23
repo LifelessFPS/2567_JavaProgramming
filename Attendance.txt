@@ -1,4 +1,4 @@
 SudentID : 2413110558
 StudentName : Ukit Pudpong
-Date : 16/12/2024
-Topic : Method
+Date : 23/12/2024
+Topic : Array and Array Method
