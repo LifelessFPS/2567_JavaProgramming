@@ -1,5 +1,5 @@
 SudentID : 2413110558
 StudentName : Ukit Pudpong
-Date : 20/01/2025
-Topic : - Encapsulation Concept
-	- Array Object
+Date : 03/02/2025
+Topic : - Array Object
+	- Composition Concept
